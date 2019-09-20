@@ -249,7 +249,7 @@ public class Category extends javax.swing.JFrame {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conl = DriverManager.getConnection("jdbc:mysql://localhost/sn store","root","");
-            pst = conl.prepareStatement("insert into category(category,status)calues(?,?)");
+            pst = conl.prepareStatement("insert into category(category,status)values(?,?)");
             pst.setString(1, category);
             pst.setString(2,status);
             pst.executeUpdate();
