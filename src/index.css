@@ -4,7 +4,7 @@
     hsl(226, 100%, 35%),
     rgba(1, 84, 69, 0.67)
   );
-  --background-overlay: rgba(0, 0, 0, 0.8);
+  --background-overlay: rgba(0, 0, 0, 0.6);
 }
 
 * {
@@ -74,4 +74,96 @@ a {
 
 .homepage .overlay ul li a {
   font-size: 46px;
+}
+
+.menu-btn {
+  position: absolute;
+  right: 80px;
+  margin-top: 50px;
+  z-index: 9999999;
+}
+
+.menu-btn button {
+  background-color: transparent;
+  font-size: 36px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Header */
+.header {
+  position: absolute;
+  right: 0;
+  height: 0;
+  overflow: hidden;
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+}
+
+.header.open {
+  height: 100%;
+  background-color: var(--background-overlay);
+}
+
+.header nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.header nav ul li {
+  margin: 6px 0;
+}
+
+/* Contacts */
+.contacts {
+  background-image: var(--background-image);
+  height: 100vh;
+}
+
+.contacts h1 {
+  padding: 50px 80px;
+  color: #fff;
+}
+
+.contacts ul {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contacts ul li {
+  margin: 10px 0;
+}
+
+.contacts ul li a {
+  font-size: 30px;
+}
+
+@media (max-width: 992px) {
+  .homepage .overlay h1 {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-btn {
+    right: 30px;
+  }
+
+  .homepage .overlay h1 {
+    font-size: 30px;
+  }
+
+  .homepage .overlay p {
+    font-size: 20px;
+  }
+
+  .homepage .overlay ul li a {
+    font-size: 24px;
+  }
 }
