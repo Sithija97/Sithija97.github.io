@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Contact from "./componets/contact";
-import HomePage from "./componets/homePage";
+import Contact from "./pages/contact";
+import HomePage from "./pages/homePage";
 import Menu from "./componets/menu";
 import ErrorPage from "./pages/errorPage";
 import ProjectsPage from "./pages/projectsPage";

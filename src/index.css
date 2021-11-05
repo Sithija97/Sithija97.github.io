@@ -118,6 +118,63 @@ a {
   margin: 6px 0;
 }
 
+.projects {
+  background-image: var(--background-image);
+}
+
+.projects img {
+  border-radius: 20px;
+}
+
+.projects h1 {
+  padding: 50px 80px;
+  color: #fff;
+}
+
+.projects .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 800px;
+  margin: auto;
+  gap: 20px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.projects .cards h4 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+.projects .cards p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.projects .cards ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects .cards ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects .cards ul li a.github {
+  background-color: #333;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.projects .cards ul li a.demo {
+  background-color: #224899;
+  padding: 5px;
+  font-size: 15px;
+}
+
 /* Contacts */
 .contacts {
   background-image: var(--background-image);
@@ -141,7 +198,8 @@ a {
 }
 
 .contacts ul li a {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 550;
 }
 
 @media (max-width: 992px) {
@@ -165,5 +223,9 @@ a {
 
   .homepage .overlay ul li a {
     font-size: 24px;
+  }
+
+  .contacts ul li a {
+    font-size: 18px;
   }
 }
