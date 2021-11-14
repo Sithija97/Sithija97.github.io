@@ -120,6 +120,7 @@ a {
 
 .projects {
   background-image: var(--background-image);
+  height: 100vh;
 }
 
 .projects img {
