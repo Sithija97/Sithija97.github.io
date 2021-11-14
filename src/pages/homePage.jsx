@@ -10,22 +10,38 @@ const HomePage = () => {
 
           <ul>
             <li>
-              <a href="" target="_blank" rel="noopennernoreferrer">
+              <a
+                href="https://twitter.com/Sithijashehara"
+                target="_blank"
+                rel="noopennernoreferrer"
+              >
                 <FaTwitter />
               </a>
             </li>
             <li>
-              <a href="" target="_blank" rel="noopennernoreferrer">
+              <a
+                href="https://github.com/Sithija97"
+                target="_blank"
+                rel="noopennernoreferrer"
+              >
                 <FaGithub />
               </a>
             </li>
             <li>
-              <a href="" target="_blank" rel="noopennernoreferrer">
+              <a
+                href="https://www.linkedin.com/in/sithija-shehara-6a0a6815b/"
+                target="_blank"
+                rel="noopennernoreferrer"
+              >
                 <FaLinkedin />
               </a>
             </li>
             <li>
-              <a href="" target="_blank" rel="noopennernoreferrer">
+              <a
+                href="https://dev.to/sithija97"
+                target="_blank"
+                rel="noopennernoreferrer"
+              >
                 <FaDev />
               </a>
             </li>
