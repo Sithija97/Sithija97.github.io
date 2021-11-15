@@ -120,7 +120,7 @@ a {
 
 .projects {
   background-image: var(--background-image);
-  height: 100vh;
+  min-height: 130vh;
 }
 
 .projects img {
@@ -179,7 +179,7 @@ a {
 /* Contacts */
 .contacts {
   background-image: var(--background-image);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .contacts h1 {

@@ -1,5 +1,11 @@
 import React from "react";
-import { FaTwitter, FaGithub, FaLinkedin, FaDev } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+  FaDev,
+  FaHackerrank,
+} from "react-icons/fa";
 const HomePage = () => {
   return (
     <React.Fragment>
@@ -12,7 +18,7 @@ const HomePage = () => {
             <li>
               <a
                 href="https://twitter.com/Sithijashehara"
-                target="_blank"
+                target="blank"
                 rel="noopennernoreferrer"
               >
                 <FaTwitter />
@@ -21,7 +27,7 @@ const HomePage = () => {
             <li>
               <a
                 href="https://github.com/Sithija97"
-                target="_blank"
+                target="blank"
                 rel="noopennernoreferrer"
               >
                 <FaGithub />
@@ -30,7 +36,7 @@ const HomePage = () => {
             <li>
               <a
                 href="https://www.linkedin.com/in/sithija-shehara-6a0a6815b/"
-                target="_blank"
+                target="blank"
                 rel="noopennernoreferrer"
               >
                 <FaLinkedin />
@@ -39,10 +45,19 @@ const HomePage = () => {
             <li>
               <a
                 href="https://dev.to/sithija97"
-                target="_blank"
+                target="blank"
                 rel="noopennernoreferrer"
               >
                 <FaDev />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hackerrank.com/nsithijashehara"
+                target="blank"
+                rel="noopennernoreferrer"
+              >
+                <FaHackerrank />
               </a>
             </li>
           </ul>
