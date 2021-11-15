@@ -1,34 +1,36 @@
 export const ProjectData = [
   {
     id: 1,
-    title: "Random Project 2",
+    title: "Money Manager",
     about:
-      "This is a random project I am using to illustrate in my video. This is channel overreacted and I hope you are enjoying this video. Make sure you like and comment if you have any doubt.",
-    tags: ["ReactJs", "NodeJs", "Firebase", "Healthcare"],
-    demo: "www.example.com",
-    github: "www.example.com",
+      " Expense managing application for keep track of incomes and expenses along with note taking functionality",
+    tags: ["ReactJs", "Material UI", "Firebase", "Finance"],
+    demo: "",
+    github: "https://github.com/Sithija97/Money-Manager",
     image:
-      "https://i.pinimg.com/originals/8e/6d/fe/8e6dfec5dd47bedf06ca7f74c77e4b14.png",
+      "https://image.freepik.com/free-vector/wallet-concept-illustration_114360-1558.jpg",
   },
 
   {
-    id: 1,
-    title: "Random Project 1",
+    id: 2,
+    title: "Job Portal Application",
     about:
-      "This is a random project I am using to illustrate in my video. This is channel overreacted and I hope you are enjoying this video. Make sure you like and comment if you have any doubt.",
-    tags: [
-      "ReactJs",
-      "NodeJs",
-      "Firebase",
-      "Healthcare",
-      "ReactJs",
-      "NodeJs",
-      "Firebase",
-      "Healthcare",
-    ],
-    demo: "www.example.com",
-    github: "www.example.com",
+      "Job portal application which enables to post jobs and filter those posted jobs with different options ",
+    tags: ["ReactJs", "Material UI", "Firebase", "Jobs"],
+    demo: "",
+    github: "https://github.com/Sithija97/Jobs-App",
     image:
-      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+      "https://image.freepik.com/free-vector/illustrated-people-choosing-new-worker_52683-44248.jpg",
+  },
+  {
+    id: 3,
+    title: "WikiSeeker",
+    about:
+      " A react web application which allows the users to search things and get the Wikipedia results with the help of an API. ",
+    tags: ["ReactJs", "Material UI", "Education"],
+    demo: "",
+    github: "https://github.com/Sithija97/Wiki-search-App",
+    image:
+      "https://cdn.neow.in/news/images/uploaded/2015/09/wikipedia_logo_story.jpg",
   },
 ];

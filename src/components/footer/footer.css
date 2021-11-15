@@ -1,4 +1,6 @@
 .footer {
+  width: auto;
+  background-color: gainsboro;
   padding: 12px;
   display: flex;
   justify-content: center;
