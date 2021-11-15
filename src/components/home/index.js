@@ -5,17 +5,19 @@ import Footer from "../footer/index";
 import Body from "../body/index";
 function Home() {
   return (
-    <div className="home">
-      <div>
-        <Header />
-      </div>
-      <div>
-        <Body />
+    <React.Fragment>
+      <div className="home">
+        <div>
+          <Header />
+        </div>
+        <div>
+          <Body />
+        </div>
       </div>
       <div>
         <Footer />
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
