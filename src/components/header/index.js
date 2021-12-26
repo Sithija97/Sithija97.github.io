@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import Mobile from "./mobile/index";
 import Web from "./web/index";
+import { TiThMenu } from "react-icons/ti";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const handleLogoClick = () => {
@@ -20,7 +21,8 @@ function Header() {
 
         <div className="mobile-menu">
           <div onClick={() => setIsOpen(!isOpen)}>
-            <i class="fi-rr-apps menu-icon"></i>
+            {/* <i class="fi-rr-apps menu-icon"></i> */}
+            <TiThMenu className="menu-item" />
           </div>
           {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>

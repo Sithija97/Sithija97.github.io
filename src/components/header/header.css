@@ -27,9 +27,13 @@
   color: #22a6b3;
   font-weight: 800;
 }
+.menu-item {
+  font-size: 23px;
+}
 @media only screen and (max-width: 720px) {
   .mobile-menu {
     display: flex;
+    z-index: 998;
   }
   .web-menu {
     display: none;
