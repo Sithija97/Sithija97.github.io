@@ -8,7 +8,7 @@ export const ProjectData = [
     demo: "",
     github: "https://github.com/Sithija97/Money-Manager",
     image:
-      "https://image.freepik.com/free-vector/wallet-concept-illustration_114360-1558.jpg",
+      "https://img.freepik.com/free-vector/savings-concept-illustration_114360-1516.jpg?size=338&ext=jpg",
   },
 
   {
@@ -20,10 +20,21 @@ export const ProjectData = [
     demo: "",
     github: "https://github.com/Sithija97/Jobs-App",
     image:
-      "https://image.freepik.com/free-vector/illustrated-people-choosing-new-worker_52683-44248.jpg",
+      "https://thumbs.dreamstime.com/z/job-agency-job-interview-recruitment-agency-vector-illustration-job-agency-job-interview-recruitment-agency-136517788.jpg",
   },
   {
     id: 3,
+    title: "Social Media Platform - MERN",
+    about:
+      " A social media platform for environmentalists and nature lovers, users can keep profiles, upload photos, make posts.",
+    tags: ["ReactJs", "Express.js", "MongoDB", "Node.js", "Material UI"],
+    demo: "",
+    github: "https://github.com/Sithija97/MERN-Social-Media-Platform",
+    image:
+      "https://thumbs.dreamstime.com/b/man-hug-earth-vector-isolated-save-concept-boy-holding-big-globe-nature-lover-ecology-friendly-lifestyle-171201517.jpg",
+  },
+  {
+    id: 4,
     title: "WikiSeeker",
     about:
       " A react web application which allows the users to search things and get the Wikipedia results with the help of an API. ",
