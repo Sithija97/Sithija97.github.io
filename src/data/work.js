@@ -14,6 +14,6 @@ export const WorkData = [
     dateJoining: "02-06-2021",
     dateEnd: "Present",
     companyLogo: "https://cdn.worldvectorlogo.com/logos/freelancer-1.svg",
-    work: " Providing web solutions, UI designs, Logo and Illustrationdesigns for clients to make application with better userexperience.",
+    work: " Providing web solutions, UI designs, Logo and Illustration designs for clients to make application with better userexperience.",
   },
 ];
